@@ -5,5 +5,4 @@ class MacroPoloControllerTest < ActionDispatch::IntegrationTest
     get macro_polo_get_marco_polo_url
     assert_response :success
   end
-
 end

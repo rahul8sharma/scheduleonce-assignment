@@ -63,5 +63,6 @@ module InvoiceHelper
       number_one_index = number_one_index + 3
       number_two_index = number_two_index + 3
     end
+    parsed_invoice_number
   end
 end
