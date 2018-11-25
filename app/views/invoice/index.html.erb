@@ -1,0 +1,10 @@
+<center>
+  <%= form_tag({:action => :upload_file}, name: "uploadFile", multipart: true) do %>
+    <div id="uplloadFileButton" onclick="get_file()">
+      click to upload a file
+    </div>
+    <div id='inputFileDiv'>
+      <input id="uploadFile" type="file" name="invoice_file" onchange="upload_file(this)"/>
+    </div>
+  <% end %>
+</center>
